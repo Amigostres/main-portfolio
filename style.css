@@ -7,6 +7,10 @@ body {
   color: #fff;
 }
 
+/* ===========================
+  Header
+==============================*/ 
+
 header {
   width: 100%;
   height: 100vh;
@@ -20,11 +24,11 @@ header {
 .profile img {
   margin: 15px auto;
   display: block;
-  width: auto;
-  height: 300px;
+  width: 120px;
   display:block;
-  border: 8px solid #2c2f3f;
+  border: 4px solid #2c2f3f;
 }
+
 
 
 /* === Hero === */
