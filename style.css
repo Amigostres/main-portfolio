@@ -3,8 +3,8 @@
   padding: 0;
 }
 body {
-  background-color: #080808;
-  color: #fff;
+  /* background-color: #080808; */
+  /* color: #fff; */
 }
 
 /* ===========================
@@ -21,7 +21,7 @@ header {
   flex-direction: column;
   z-index: 10;
   background: #040b14;
-  
+  color: #fff;
 }
 
 .profile img {
@@ -34,7 +34,9 @@ header {
 
 
 
-/* === Hero === */
+/* === Hero and Main === */
+
+
 #hero{
   display: flex;
   justify-content: center;
@@ -45,11 +47,35 @@ header {
   background-attachment: fixed; 
   width: 100%;
   height: 100vh;
+  color: #fff;
 }
 
 
 #hero h1{
   font-size: 64px;
   font-weight: 700;
-  color: #fff;
+}
+
+main{
+  margin-left: 300px;
+}
+
+.about {
+  padding-top: 1.68em;
+  padding: 0 30px;
+}
+.aboutTitle{
+  margin: 1.68em 0;
+}
+.about img {
+  height: 300px;
+  display: block;
+}
+.infoList{
+  padding: 0 20px;
+
+}
+.infoList > li{
+  margin-bottom: 1.68em;
+  list-style: circle;
 }
