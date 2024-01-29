@@ -60,13 +60,17 @@ main{
   margin-left: 300px;
 }
 
-.about {
+.topic {
   padding-top: 1.68em;
   padding: 0 30px;
 }
-.aboutTitle{
+
+.title{
   margin: 1.68em 0;
 }
+
+/* === About === */
+
 .about img {
   height: 300px;
   display: block;
@@ -78,4 +82,12 @@ main{
 .infoList > li{
   margin-bottom: 1.68em;
   list-style: circle;
+}
+
+/* === Skills === */
+
+
+.skills{
+  background-color: #d6dee8;
+  padding-top: 1.68rem;
 }
